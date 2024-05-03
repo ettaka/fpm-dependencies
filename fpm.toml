@@ -1,0 +1,15 @@
+name = "fpm_dependencies"
+version = "0.1.0"
+[build]
+link = [ "linpack", "lapack", "blas"]
+[fortran]
+source-form = "default"
+implicit-typing = true
+implicit-external = true
+[install]
+library = true
+[[executable]]
+name = "fpm_dependencies"
+source-dir = "app"
+main = "fpm_dependencies.f90"
+

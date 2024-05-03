@@ -1,0 +1,16 @@
+name = "linpack"
+version = "0.1.0"
+license = "license"
+author = "Eelis Takala"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+module-naming = false
+[install]
+library = true
+[fortran]
+implicit-typing = true
+implicit-external = true
+source-form = "default"
+
